@@ -14,56 +14,43 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>Shop Homepage Template for Bootstrap</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="${css}/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="${css}/myapp.css" rel="stylesheet">;
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Add custom CSS here -->
+    <link href="${css}/myapp.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#home">Start Bootstrap</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
+                    <li><a href="#about">About</a>
                     </li>
-                    <li>
-                        <a href="#">Services</a>
+                    <li><a href="#services">Services</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
+                    <li><a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +59,6 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content -->
     <div class="container">
 
         <div class="row">
@@ -251,11 +237,11 @@
 
         <hr>
 
-        <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Company 2013 - Template by <a href="http://maxoffsky.com/">Maks</a>
+                    </p>
                 </div>
             </div>
         </footer>
@@ -263,11 +249,9 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
+    <!-- JavaScript -->
     <script src="${js}/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="${js}/bootstrap.min.js"></script>
+    <script src="${js}/bootstrap.js"></script>
 
 </body>
 
