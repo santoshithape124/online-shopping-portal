@@ -16,6 +16,13 @@
 
 	<dependencies>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.ite</groupId>
+			<artifactId>shoppingportalbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- Java EE API -->
 
 		<dependency>
@@ -42,13 +49,13 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-        <!-- JSTL -->
-        <dependency>
+		<!-- JSTL -->
+		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-        
+
 	</dependencies>
 	<build>
 		<!-- Update to latest version of Java -->
